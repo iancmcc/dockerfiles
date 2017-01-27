@@ -22,6 +22,8 @@ RUN	apt-get update && apt-get install -y \
 	&& echo "deb http://ftp.de.debian.org/debian jessie main " >> /etc/apt/sources.list.d/workaround.list \
 	&& apt-get update && apt-get install -y \
 	alsa-utils \
+	dbus \
+	dbus-x11 \
 	libgl1-mesa-dri \
 	libgl1-mesa-glx \
 	libpangoxft-1.0-0 \
